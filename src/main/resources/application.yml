@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: postgres
+    password: cHJvbWV0aGV1cw==
+    url: jdbc:postgresql://localhost:5432/ms-email
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
